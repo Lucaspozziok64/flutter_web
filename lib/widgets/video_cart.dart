@@ -6,7 +6,7 @@ class VideoCart extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Text("Video 1"),
+      child: const Text("Video 1"),
     );
   }
 }
