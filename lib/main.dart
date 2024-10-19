@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_app/widgets/video_cart.dart';
 
 void main() {
   runApp(const MyApp());
@@ -37,6 +38,11 @@ class MyWidget extends StatelessWidget {
           Icon(Icons.person),
         ]
       ),
+      body: const Column(children: [
+        VideoCart(),
+        VideoCart(),
+        VideoCart(),
+      ]),
     );
   }
 }
